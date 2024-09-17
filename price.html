@@ -68,6 +68,45 @@
             font-size: 1.1em;
             margin: 10px 0;
         }
+
+        .price-info .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .price-info .price-table th,
+        .price-info .price-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .price-info .price-table th {
+            background-color: #f2f2f2;
+            color: #444;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #444;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+
+        .cta-button:hover {
+            background-color: #555;
+        }
+
+        .discount-info {
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #444;
+        }
     </style>
 </head>
 <body>
@@ -83,11 +122,44 @@
     <!-- Price of Cleaning Section -->
     <section class="price-info">
         <h1>Price of Cleaning</h1>
-        <p><strong>Manual Cleaning:</strong> ₹200</p>
-        <p><strong>Machine Cleaning:</strong> ₹200</p>
-        <p><strong>Deep Cleaning (Manual + Machine):</strong> ₹250</p>
-        <p><strong>Scratch Removal using Polywatch:</strong> ₹300</p>
+        
+        <p>At Clean Time, we offer a range of cleaning services to keep your watches in top condition. Our pricing is designed to be transparent and affordable, ensuring you get the best value for your money. Here’s a breakdown of our services and their costs:</p>
+
+        <!-- Price Table -->
+        <table class="price-table">
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Manual Cleaning</td>
+                    <td>₹200</td>
+                </tr>
+                <tr>
+                    <td>Machine Cleaning</td>
+                    <td>₹100</td>
+                </tr>
+                <tr>
+                    <td>Deep Cleaning (Manual + Machine)</td>
+                    <td>₹250</td>
+                </tr>
+                <tr>
+                    <td>Scratch Removal using Polywatch</td>
+                    <td>₹300</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Call to Action -->
+        <a href="contact.html" class="cta-button">Book Now</a>
+
+        <!-- Discount Information -->
+        <p class="discount-info">For any discounts or special offers, please contact us directly. We’d be happy to assist you!</p>
     </section>
 
 </body>
 </html>
+
